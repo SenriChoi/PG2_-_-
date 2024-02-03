@@ -59,16 +59,6 @@ int WINAPI WinMain(HINSTANCE, HINSTANCE, LPSTR, int) {
 			player->checkBullet(enemyB);
 		}
 
-		//if (Enemy::isAlive) {
-		//	for (int i=0;i<5;i++){
-		//	if (player->bullet[i].isShot) {
-		//		if ((distance(player->bullet[i].x, player->bullet[i].y, enemyA->GetPosX(), enemyA->GetPosY()) < enemyA->GetRadius() + player->bullet[i].r) || (distance(player->bullet[i].x, player->bullet[i].y, enemyB->GetPosX(), enemyB->GetPosY()) < enemyB->GetRadius() + player->bullet[i].r))
-		//		{
-		//			Enemy::isAlive = 0;
-		//		}
-		//	}
-		//}
-		//}
 
 		screenChange->Update(keys,preKeys,player,enemyA,enemyB);
 		///
